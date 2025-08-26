@@ -105,7 +105,7 @@ module seg7(
 
 Constraints File (Arty A7 Example)
 # Clock signal (100 MHz on Arty A7)
-set_property -dict { PACKAGE_PIN E3 IOSTANDARD LVCMOS33 } [get_ports { clk }];
+clk = E3
 
 # 7-segment display segments (A-G)
 seg(0) = H15
